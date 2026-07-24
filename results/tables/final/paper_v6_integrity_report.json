@@ -1,0 +1,107 @@
+{
+  "valid": true,
+  "num_datasets_privacy": 3,
+  "num_datasets_baseline": 3,
+  "reports": [
+    {
+      "dataset": "default_credit_card_clients",
+      "kind": "privacy_factorial",
+      "unique_rows": 80,
+      "cell_counts": {
+        "alpha=0.5/dp_uniform": 10,
+        "alpha=0.5/full_ha_dp": 10,
+        "alpha=0.5/ha_uniform": 10,
+        "alpha=0.5/scheduler": 10,
+        "alpha=0.1/dp_uniform": 10,
+        "alpha=0.1/full_ha_dp": 10,
+        "alpha=0.1/ha_uniform": 10,
+        "alpha=0.1/scheduler": 10
+      },
+      "errors": [],
+      "valid": true
+    },
+    {
+      "dataset": "german_credit",
+      "kind": "privacy_factorial",
+      "unique_rows": 80,
+      "cell_counts": {
+        "alpha=0.5/dp_uniform": 10,
+        "alpha=0.5/full_ha_dp": 10,
+        "alpha=0.5/ha_uniform": 10,
+        "alpha=0.5/scheduler": 10,
+        "alpha=0.1/dp_uniform": 10,
+        "alpha=0.1/full_ha_dp": 10,
+        "alpha=0.1/ha_uniform": 10,
+        "alpha=0.1/scheduler": 10
+      },
+      "errors": [],
+      "valid": true
+    },
+    {
+      "dataset": "give_me_some_credit",
+      "kind": "privacy_factorial",
+      "unique_rows": 80,
+      "cell_counts": {
+        "alpha=0.5/dp_uniform": 10,
+        "alpha=0.5/full_ha_dp": 10,
+        "alpha=0.5/ha_uniform": 10,
+        "alpha=0.5/scheduler": 10,
+        "alpha=0.1/dp_uniform": 10,
+        "alpha=0.1/full_ha_dp": 10,
+        "alpha=0.1/ha_uniform": 10,
+        "alpha=0.1/scheduler": 10
+      },
+      "errors": [],
+      "valid": true
+    },
+    {
+      "dataset": "default_credit_card_clients",
+      "kind": "reference_baselines",
+      "unique_rows": 90,
+      "variant_counts": {
+        "centralized_mlp": 10,
+        "fedavg_iid": 10,
+        "fedavg_noniid": 20,
+        "fedprox_noniid": 20,
+        "hist_gbdt": 10,
+        "logistic_regression": 10,
+        "xgboost": 10
+      },
+      "errors": [],
+      "valid": true
+    },
+    {
+      "dataset": "german_credit",
+      "kind": "reference_baselines",
+      "unique_rows": 90,
+      "variant_counts": {
+        "centralized_mlp": 10,
+        "fedavg_iid": 10,
+        "fedavg_noniid": 20,
+        "fedprox_noniid": 20,
+        "hist_gbdt": 10,
+        "logistic_regression": 10,
+        "xgboost": 10
+      },
+      "errors": [],
+      "valid": true
+    },
+    {
+      "dataset": "give_me_some_credit",
+      "kind": "reference_baselines",
+      "unique_rows": 90,
+      "variant_counts": {
+        "centralized_mlp": 10,
+        "fedavg_iid": 10,
+        "fedavg_noniid": 20,
+        "fedprox_noniid": 20,
+        "hist_gbdt": 10,
+        "logistic_regression": 10,
+        "xgboost": 10
+      },
+      "errors": [],
+      "valid": true
+    }
+  ],
+  "errors": []
+}

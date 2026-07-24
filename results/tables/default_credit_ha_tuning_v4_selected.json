@@ -1,0 +1,22 @@
+{
+  "dataset": "default_credit",
+  "development_seeds": [
+    7,
+    11
+  ],
+  "final_evaluation_seeds": [
+    42,
+    123,
+    2026,
+    27182,
+    31415
+  ],
+  "ha_prior_strength": 50.0,
+  "ha_strength": 1.0,
+  "ha_supported_on_development": true,
+  "scheduler_only_validation_score": 0.4156754955028307,
+  "selection_metric": "mean validation AUPRC",
+  "selection_score": 0.45382646720109476,
+  "test_metrics_were_not_used_for_selection": true,
+  "validation_score_delta_vs_scheduler": 0.038150971698264036
+}
