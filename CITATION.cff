@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "HA-DP-FedAvg: Privacy Scheduling and Heterogeneity-Aware Aggregation for Federated Credit Risk Prediction"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Zeng
+    given-names: Zihang
+    email: Zihang.Zeng23@student.xjtlu.edu.cn
+    affiliation: "School of AI and Advanced Computing, Xi'an Jiaotong-Liverpool University"
+  - family-names: Shi
+    given-names: Yunkun
+    email: Yunkun.Shi23@student.xjtlu.edu.cn
+    affiliation: "School of AI and Advanced Computing, Xi'an Jiaotong-Liverpool University"
+  - family-names: Liu
+    given-names: Kai
+    email: Kai.Liu@xjtlu.edu.cn
+    affiliation: "Entrepreneurship and Enterprise Hub, Xi'an Jiaotong-Liverpool University"
