@@ -13,7 +13,6 @@ source "${SLURM_SUBMIT_DIR:-$(pwd)}/jobs/setup_env.sh"
 
 echo "[Job] id=$SLURM_JOB_ID host=$(hostname) start=$(date -Is)"
 nvidia-smi --query-gpu=name,driver_version,memory.total --format=csv,noheader
-python -u profile_privacy_accounting_v4.py
 python -u run_ha_tuning_v4.py \
   --dataset default_credit \
   --alphas 0.5 0.1 \

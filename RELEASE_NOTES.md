@@ -1,5 +1,13 @@
 # Release notes
 
+## Repository maintenance
+
+- Documented local and Slurm reproduction of the final experiments and
+  reanalysis of the archived CSVs.
+- Removed superseded Slurm jobs, two development utilities, and the earlier
+  release's file manifest. The final experiment jobs and archived results
+  remain available.
+
 ## Version 1.0.0
 
 This package is the public research-code release for HA-DP-FedAvg. It includes:

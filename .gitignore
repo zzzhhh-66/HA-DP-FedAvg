@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.tmp/
+*.py[cod]
+
+/data/default_credit_card/
+/data/give_me_some_credit/
+/data/german_credit/
+/results/logs/
+/results/predictions/
+/results/checkpoints/
+/results/tables/*.csv
+/results/tables/*.json
+/results/figures/*.png
+/results/figures/*.pdf
