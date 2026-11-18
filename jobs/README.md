@@ -2,6 +2,12 @@
 
 Submit jobs from the repository root. Every job sources `jobs/setup_env.sh`,
 which uses `SLURM_SUBMIT_DIR` instead of a user-specific filesystem path.
+Create the log directory before submitting. Slurm opens the log files before
+the job can run the setup script.
+
+```bash
+mkdir -p results/logs
+```
 
 ## Environment variables
 
@@ -38,9 +44,9 @@ The Python code does not require an RTX 4090 specifically.
 ## Monitoring
 
 ```bash
-JOB=$(sbatch --parsable jobs/default_credit_v5_controls.sbatch)
+JOB=$(sbatch --parsable jobs/default_credit_final_ablation_v6.sbatch)
 squeue -j "$JOB"
-tail -F "results/logs/default_credit_v5_controls_${JOB}.out"
+tail -F "results/logs/default_credit_final_ablation_v6_${JOB}.out"
 ```
 
 The scripts use unbuffered Python output and write checkpoints after completed
